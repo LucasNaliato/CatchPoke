@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CatchPoke</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/css/pokemon.css">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+</head>
+<body>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br>
+    <div class="container is-max-desktop box">
+        <h2 class="is-size-1">Login</h2>
+        <form action="/login" method="POST">
+            <div class="field mt-3">
+                <label class="label" for="username">Username</label>
+                <input id="username" name="username" class="input" type="text" placeholder="Seu username">
+            </div>
+
+            <div class="field">
+                <label class="label" for="password">Password</label>
+                <input id="password" name="password" class="input" type="password" placeholder="Sua password">
+            </div>
+            <br>
+            <div class="field is-grouped is-justify-content-center">
+                <div class="control">
+                    <button class="button is-success is-rounded">Entrar</button>
+                </div>
+        </form>
+    </div>
+    <div class="link mt-6 is-align-self-center"><a class="mt-3" href="http://localhost:3000/register">Ainda não se
+            cadastrou? Clique aqui para se cadastrar!</a></div>
+    </div>
+</body>
+</html>

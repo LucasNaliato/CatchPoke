@@ -1,0 +1,150 @@
+
+.container {
+	padding: 40px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 54px;
+}
+
+.pokedex {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 20px;
+	padding-inline-start: 0;
+}
+
+.card {
+	list-style: none;
+	padding: 40px;
+	color: #222;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+	background: linear-gradient(329.54deg, #00d8f5 0%, #30ebeb 100%) no-repeat;
+}
+
+.card-bag {
+	padding: 20px;
+	color: #222;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+	background: linear-gradient(329.54deg, #00d8f5 0%, #30ebeb 100%) no-repeat;
+}
+
+.card:hover {
+	animation: bounce 0.5s linear;
+}
+
+.card-title {
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	z-index: 2;
+}
+
+.card-subtitle {
+	margin-top: 5px;
+	color: #666;
+	font-weight: lighter;
+	font-size: 24px;
+	position: relative;
+	z-index: 2;
+}
+
+.card-image {
+	height: 180px;
+	position: relative;
+	z-index: 2;
+}
+
+.card-gif {
+	height: 200px;
+	margin-right: 50px;
+	margin-left: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.card-test {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	z-index: 1;
+}
+
+.main {
+	background-image: url('../images/2257904.png');
+	background-position: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+.wild-main {
+	background-image: url('../images/nature-Pokemon-Wallpapers-HD-Desktop-and-Mobile-Backgrounds.jpg');
+	background-position: center;
+	width:1920px;
+	height: 977px;
+	padding-top: 200px;
+	min-height: 100vh;
+	text-align: center;
+	display: flex;
+}
+
+.bag-main {
+	background-image: url('../images/nature-Pokemon-Wallpapers-HD-Desktop-and-Mobile-Backgrounds.jpg');
+	background-position: center;
+	width:1920px;
+	height: 977px;
+	padding-top: 120px;
+	min-height: 100vh;
+}
+
+.titulo {
+	font-size: 50px;
+	color: cyan;
+}
+
+.subtitulo {
+	font-size: 25px;
+	color: cyan;
+}
+
+.links {
+	text-decoration: none;
+	color: inherit;
+}
+
+.links:hover {
+	color: inherit;
+}
+
+.bag-title {
+	margin-bottom: 0px;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	z-index: 2;
+}
+
+@keyframes bounce {
+	20% {
+			transform: translateY(-6px);
+	}
+	40% {
+			transform: translateY(0px);
+	}
+
+	80% {
+			transform: translateY(-2px);
+	}
+	100% {
+			transform: translateY(0);
+	}
+}

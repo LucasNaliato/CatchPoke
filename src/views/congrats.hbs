@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você capturou {{pokemon}}!</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/pokemon.css">
+</head>
+<body>
+    <div class="wild-main">
+        <div class="container is-max-desktop">
+            <div class="card">
+                <h1 class="card-title">Parabéns você capturou {{pokemon}}!</h1>
+                <h2 class="card-subtitle">Ele já foi inserido na sua bolsa!</h2>
+                <div class="row">
+                    <br><br>
+                    <a href="http://localhost:3000/bag"><button class="button is-success">Consultar bag</button></a>
+                    <a href="http://localhost:3000/wild"><button class="button is-danger">Caçar outro pokémon</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

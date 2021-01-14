@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bag - CatchPoke</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/pokemon.css">
+</head>
+<body>
+    <div class="bag-main">
+        <div class="container">
+            <div class="columns mt-6">
+                {{#each results}}
+                <div class="column">
+                    <div class="card">
+                        <h2 class="card-title">Treinador: <u>{{this.username}}</u></h2>
+                        <h2 class="mt-1">{{this.poke1}}</h2>
+                        <h2 class="mt-1">{{this.poke2}}</h2>
+                        <h2 class="mt-1">{{this.poke3}}</h2>
+                        <h2 class="mt-1">{{this.poke4}}</h2>
+                        <h2 class="mt-1">{{this.poke5}}</h2>
+                        <h2 class="mt-1">{{this.poke6}}</h2>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="container mt-1">
+            <a href="http://localhost:3000/"><button class="button is-medium is-link ml-6">Ir pra página
+                    home</button></a>
+            <a href="http://localhost:3000/wild"><button class="button is-medium is-link ml-6">Procurar pokémon
+                    selvagem</button></a>
+            <a href="http://localhost:3000/bag"><button class="button is-medium is-link ml-6">Consultar bag</button></a>
+        </div>
+    </div>
+</body>
+</html>

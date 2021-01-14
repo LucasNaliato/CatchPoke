@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CatchPoke</title>
+    <link rel="icon" href="/images/icon.png">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/pokemon.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 class="title mt-6 titulo">Seja bem-vindo treinador <u>{{username}}</u>!</h1>
+            <br>
+            <h2 class="subtitle mt-4 subtitulo">O que deseja fazer?</h2>
+            <div class="columns mt-6 p-6">
+                <div class="column">
+                    <button class="button is-medium is-success is-rounded"><a class="links"
+                            href="http://localhost:3000/wild">Procurar um pokémon selvagem</a></button>
+                </div>
+                <div class="column">
+                    <button class="button is-medium is-success is-rounded"><a class="links"
+                            href="http://localhost:3000/bag">Consultar bag</a></button>
+                </div>
+                <div class="column">
+                    <button class="button is-medium is-success is-rounded"><a class="links"
+                            href="http://localhost:3000/pokemon">Procurar pokémons por nome ou id</a></button>
+                </div>
+                <div class="column">
+                    <button class="button is-medium is-success is-rounded"><a class="links"
+                            href="http://localhost:3000/users">Consultar usuários</a></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <button class="button is-large is-info is-rounded"><a class="links"
+                                href="http://localhost:3000/login">Faça Login</a></button>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>
