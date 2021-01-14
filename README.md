@@ -10,7 +10,20 @@
 
 ## 💻 Sobre o projeto
 
-Com a ideia de melhorar o meu conhecimento nas ferramentas utilizadas e também fazer algo que fosse relacionado ao mundo com Pokémon, nasceu o CatchPoke! Um simples projeto onde o usuário pode se logar e capturar pokémons para sua conta!
+Com a ideia de melhorar o meu conhecimento nas ferramentas utilizadas e também fazer algo que fosse relacionado ao mundo Pokémon, nasceu o CatchPoke! Um simples projeto onde o usuário pode se logar e capturar pokémons para sua conta!
+
+### Capture pokémons!
+<img src="/public/images/Wild">
+---
+<img src="/public/images/Congrats">
+---
+
+### Acompanhe sua bolsa
+<img src="public/images/Bag">
+---
+
+### Veja os pokémons de outros usuários
+<img src="public/images/Users">
 
 ---
 

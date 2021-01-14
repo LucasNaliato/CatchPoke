@@ -78,11 +78,9 @@ class PokeController {
       lucky = Math.floor(Math.random() * 1000);
 
       if (lucky >= 900) {
-        message = `Parabéns, você capturou ${pokename}, ele é um pokémon lendário!`;
         user.CheckPoke1(newId, pokename, res);
         return;
       } else {
-        message = `Eita, ${pokename} escapou! Ele era um lendário!`;
         res.status(300).redirect("/wild");
         return;
       }
