@@ -14,16 +14,13 @@ Com a ideia de melhorar o meu conhecimento nas ferramentas utilizadas e também 
 
 ### Capture pokémons!
 <img src="/public/images/Wild">
----
 <img src="/public/images/Congrats">
----
 
 ### Acompanhe sua bolsa
-<img src="public/images/Bag">
----
+<img src="/public/images/Bag">
 
 ### Veja os pokémons de outros usuários
-<img src="public/images/Users">
+<img src="/public/images/Users">
 
 ---
 
