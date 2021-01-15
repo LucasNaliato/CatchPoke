@@ -60,7 +60,7 @@ $ npm install
 $ npm start
 
 # O servidor inciará na porta:3000 - acesse http://localhost:3000/register
-# Para usar todas as funcionalides você deve se registrar e logar na aplicação
+# Para usar todas as funcionalidades você deve se registrar e logar na aplicação
 
 ```
 
